@@ -1,16 +1,15 @@
 import React from "react";
-import modelImage from "../../asset/Images/modelImage1.png";
-import SmearedGloss from "../../asset/Images/SmearedGloss.png";
+import Hero from "../../components/Hero/Hero";
+import Product from "../../components/Product/Product";
 
 const Home = () => {
   return (
-    <div className="bg-primaryColor w-screen h-90 flex items-center">
-      <img src={modelImage} alt="Description of the image" />
-      <div>
-        <p>BRCOSMETICS</p>
-        <p>'For Every Woman'</p>
-        <img src={SmearedGloss} alt="Description of the image" />
-      </div>
+    <div
+      className="bg-pureWhite w-screen"
+      //style={{ height: "calc(100vh - h-68)" }}
+    >
+      {/* <Hero /> */}
+      <Product />
     </div>
   );
 };

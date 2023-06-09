@@ -20,7 +20,6 @@ const Layout = () => {
       <Outlet />
       <Footer //companyName={companyName} year={year}
       />
-      ,
     </>
   );
 };
